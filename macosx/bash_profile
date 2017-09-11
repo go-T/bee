@@ -1,0 +1,36 @@
+export CLICOLOR=1
+export TERM=xterm-256color
+
+USER_LOCAL=/usr/local
+HOME_LOCAL=${HOME}/local
+PATH=${HOME}/bin:${HOME_LOCAL}/bin:${USER_LOCAL}/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+# Python
+export WORKON_HOME=${HOME_LOCAL}/virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=${USER_LOCAL}/bin/python3
+source ${USER_LOCAL}/bin/virtualenvwrapper.sh
+
+# brew
+# export HOMEBREW_GITHUB_API_TOKEN=""
+export HOMEBREW_EDITOR=vim
+export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+
+# utils
+function abs() {
+    FILE=${1}
+    if [ "$FILE" = "" -o -d "$FILE" ] ; then
+        cd $FILE
+        FILE=$(pwd)
+    else 
+        cd $(dirname $FILE)
+        FILE="$(pwd)/$(basename $FILE)"
+    fi
+}
+alias cdp="cd -P"
+alias tailf="tail -f"
+alias ll="ls -lG";
+alias edit="open -a 'Sublime Text'";
+alias vim=${USER_LOCAL}/bin/vim
+
+source ${HOME_LOCAL}/bin/init

@@ -1,0 +1,36 @@
+export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="zs"
+DISABLE_AUTO_UPDATE="true"
+HIST_STAMPS="yyyy-mm-dd"
+
+plugins=(git autojump rsync docker go cp tmux)
+source $ZSH/oh-my-zsh.sh
+
+[[ -s /usr/share/autojump/autojump.sh ]] && source /usr/share/autojump/autojump.sh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+PATH=${HOME}/bin:${HOME}/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+[ -f ${HOME_LOCAL}/init ] && source ${HOME_LOCAL}/init
+
+# Python
+export WORKON_HOME=${HOME}/local/virtualenvs
+
+# utils
+function abs() {
+    FILE=${1}
+    if [ "$FILE" = "" -o -d "$FILE" ] ; then
+        cd $FILE
+        FILE=$(pwd)
+    else 
+        cd $(dirname $FILE)
+        FILE="$(pwd)/$(basename $FILE)"
+    fi
+}
+
+alias cdp="cd -P"
+alias tailf="tail -f"
+alias ll="ls -lG";
+
+# setopt noincappendhistory
+# setopt nosharehistory
+set -o shwordsplit

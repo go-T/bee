@@ -15,6 +15,7 @@ read-write workloads while still maintaining the ACID guarantees of a traditiona
   
 ## Key-Value Database
   * [redis](https://github.com/antirez/redis) - an in-memory database that persists on disk. (23K)
+  * [Pedis](https://github.com/fastio/pedis) - Pedis is the NoSQL data store using the SEASTAR framework, compatible with REDIS. The name of Pedis is an acronym of Parallel redis, which with high throughput and low latency.
   * [etcd](https://github.com/coreos/etcd) - Distributed reliable key-value store for the most critical data of a distributed system.(*13k)
   * [TiKV](https://github.com/pingcap/tikv) - Distributed transactional key value database powered by Rust and Raft. (*1.8k)
   * [GolevelDB](https://github.com/syndtr/goleveldb) - an implementation of the LevelDB key/value database in the Go programming language.(*1.6k)
@@ -29,8 +30,9 @@ read-write workloads while still maintaining the ACID guarantees of a traditiona
   * [postgresql](http://www.postgresql.org) - postgresql
   * [sqlite](http://www.sqlite.org/) - sqlite
 
-## Columns storage
+## Columner storage
   * [Cassandra](http://cassandra.apache.org/) - cassandra
+  * [scylla](https://github.com/scylladb/scylla) - NoSQL data store using the seastar framework, compatible with Apache Cassandra. 10X.
   * [HBase]() - HBase
 
 ## Document database

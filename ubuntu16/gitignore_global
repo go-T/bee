@@ -1,0 +1,10 @@
+**/.*
+!**/.gitlab-ci.yml
+!**/.gitignore
+/x
+/out
+/bin
+*.log
+*.o
+*.lo
+*.la
