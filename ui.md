@@ -3,22 +3,22 @@ ui
 
 framework
 ----
-- [bootstrap](https://github.com/twbs/bootstrap) 
-- [**Tencent/weui**](https://github.com/Tencent/weui) - A UI library by WeChat official design team, includes the most useful widgets/modules in mobile web applications. [https://weui.io](https://weui.io)(15k*)
-- [materialize](https://github.com/Dogfalo/materialize) - Materialize, a CSS Framework based on Material Design. [http://materializecss.com](http://materializecss.com)
-- [material design lite](https://github.com/google/material-design-lite) - Material Design Components in HTML/CSS/JS. [http://getmdl.io](http://getmdl.io)
-- [**yahoo/pure**](https://github.com/yahoo/pure) - A set of small, responsive CSS modules that you can use in every web project. [http://purecss.io/](http://purecss.io/) (17k*)
-- [**uikit**](https://github.com/uikit/uikit) - A lightweight and modular front-end framework for developing fast and powerful web interfaces. [https://getuikit.com/](https://getuikit.com/)(10k*)
-- [bulma](https://github.com/jgthms/bulma) - Modern CSS framework based on Flexbox. [http://bulma.io](http://bulma.io)
-- [ant design](https://github.com/ant-design/ant-design) - A UI Design Language. [http://ant.design](http://ant.design)
-- [ratchet](https://github.com/twbs/ratchet) - Build **mobile** apps with simple HTML, CSS, and JavaScript components. [http://goratchet.com](http://goratchet.com)
-- [amazeui](https://github.com/amazeui/amazeui) - Amaze UI, a **mobile-first** and modular front-end framework. [http://amazeui.org/](http://amazeui.org/)
+- [bootstrap](https://github.com/twbs/bootstrap)![starts](https://img.shields.io/github/stars/twbs/bootstrap.svg)
+- [Tencent/weui](https://github.com/Tencent/weui)![starts](https://img.shields.io/github/stars/Tencent/weui.svg) - A UI library by WeChat official design team, includes the most useful widgets/modules in mobile web applications. [https://weui.io](https://weui.io)(15k*)
+- [materialize](https://github.com/Dogfalo/materialize)![starts](https://img.shields.io/github/stars/Dogfalo/materialize.svg) - Materialize, a CSS Framework based on Material Design. [http://materializecss.com](http://materializecss.com)
+- [material-design-lite](https://github.com/google/material-design-lite)![starts](https://img.shields.io/github/stars/google/material-design-lite.svg) - Material Design Components in HTML/CSS/JS. [http://getmdl.io](http://getmdl.io)
+- [yahoo/pure](https://github.com/yahoo/pure)![starts](https://img.shields.io/github/stars/yahoo/pure.svg) - A set of small, responsive CSS modules that you can use in every web project. [http://purecss.io/](http://purecss.io/) (17k*)
+- [uikit](https://github.com/uikit/uikit)![starts](https://img.shields.io/github/stars/uikit/uikit.svg) - A lightweight and modular front-end framework for developing fast and powerful web interfaces. [https://getuikit.com/](https://getuikit.com/)(10k*)
+- [bulma](https://github.com/jgthms/bulma)![starts](https://img.shields.io/github/stars/jgthms/bulma.svg) \- Modern CSS framework based on Flexbox. [http://bulma.io](http://bulma.io)
+- [ant-design](https://github.com/ant-design/ant-design)![starts](https://img.shields.io/github/stars/ant-design/ant-design.svg) - A UI Design Language. [http://ant.design](http://ant.design)
+- [ratchet](https://github.com/twbs/ratchet)![starts](https://img.shields.io/github/stars/twbs/ratchet.svg) - Build **mobile** apps with simple HTML, CSS, and JavaScript components. [http://goratchet.com](http://goratchet.com)
+- [amazeui](https://github.com/amazeui/amazeui)![starts](https://img.shields.io/github/stars/amazeui/amazeui.svg) - Amaze UI, a **mobile-first** and modular front-end framework. [http://amazeui.org/](http://amazeui.org/)
 
 bootstrap uikit
 ----
-- [**Flat UI Free**](https://github.com/designmodo/Flat-UI) - Design Framework (html/css3/less/js). Flat UI is based on Bootstrap, a comfortable, responsive, and functional framework that simplifies the development of websites. [https://designmodo.com/flat-free/](https://designmodo.com/flat-free/)(13k*)
-- [**material-kit**](https://github.com/creativetimofficial/material-kit) - Free Bootstrap Material Design UI Kit 
-- [**bootswatch**](https://github.com/thomaspark/bootswatch) - Themes for Bootstrap. [https://bootswatch.com](https://bootswatch.com)
+- [Flat UI Free](https://github.com/designmodo/Flat-UI)![starts](https://img.shields.io/github/stars/designmodo/Flat-UI.svg) - Design Framework (html/css3/less/js). Flat UI is based on Bootstrap, a comfortable, responsive, and functional framework that simplifies the development of websites. [https://designmodo.com/flat-free/](https://designmodo.com/flat-free/)(13k*)
+- [material-kit](https://github.com/creativetimofficial/material-kit)![starts](https://img.shields.io/github/stars/creativetimofficial/material-kit.svg) - Free Bootstrap Material Design UI Kit 
+- [bootswatch](https://github.com/thomaspark/bootswatch)![starts](https://img.shields.io/github/stars/thomaspark/bootswatch.svg) - Themes for Bootstrap. [https://bootswatch.com](https://bootswatch.com)
 
 ui
 ----
