@@ -33,4 +33,7 @@ other
 ----
 - [creativetimofficial](https://github.com/creativetimofficial)
 - [Bootstrap 4 CheatSheet](https://github.com/creativetimofficial/bootstrap4-cheatsheet) - https://bootstrapbay.com/bootstrap4
+- [front end guide](https://github.com/grab/front-end-guide) - Study guide and introduction to the modern front end stack.
+- [css protips](https://github.com/AllThingsSmitty/css-protips) - A collection of tips to help take your CSS skills pro
+- [You Dont Need JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) - CSS is powerful, you can do a lot of things without JS.
 
